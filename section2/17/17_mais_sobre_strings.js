@@ -42,8 +42,9 @@ console.log(umaString.replace(/t/, '#')); // * Consulta igual acima porém infor
 
 console.log(umaString.replace(/t/g, '#')); // * Informando a flag "g" todos caracteres do texto igual ao informado no primeiro parâmetro serão substituidos
 
+console.log(umaString.slice(3, 9)); // * Consulta o conjunto de caracteres que estiverem entre os parametros informados que sao os indices do texto pesquisado
 
-let maisTexto = "O rato roeu a rpoupa do rei de roma.";
+/*let maisTexto = "O rato roeu a rpoupa do rei de roma.";
 
 console.log(maisTexto.split(' ')); // * Faz a divisão do texto em um array separando conforme o caracter informado, neste caso o " " (espaço)
 
@@ -51,4 +52,4 @@ console.log(maisTexto.split(' ', 3)); // * Faz a divisão conforme o exemplo aci
 
 console.log(maisTexto.toUpperCase()); // * Transforma todo texto em letras maísculas
 
-console.log(maisTexto.toLowerCase()); // * Transforma todo texto em letras minúsculas
+console.log(maisTexto.toLowerCase()); // * Transforma todo texto em letras minúsculas*/
