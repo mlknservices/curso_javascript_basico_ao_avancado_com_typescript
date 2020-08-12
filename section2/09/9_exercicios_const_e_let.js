@@ -1,7 +1,7 @@
 const nome = 'Marcelo';
 const sobreNome = 'Marcondes de Oliveira Santos';
 const idade = 41;
-const peso = 158;
+const peso = 158.6;
 const altura = 1.98;
 let imc = '';
 let anoNascimento = '';
